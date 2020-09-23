@@ -32,8 +32,8 @@ else:
 #===> FUNCTIONS
 def Banner():
     print('\033[1m{*}==>\t\t[*] MOLE SCAN [*]')
-    print('\033[1m{*}==>\t\t(Simple tcp scan running python.)')
-    print('\033[1m{*}==>\t\tCreate: https://github.com/Outs1d3r-NET/MoleScan\n')
+    print('\033[1m{*}==>\t\t(Simple tcp scan running python3.)')
+    print('\033[1m{*}==>\t\tCreated: https://github.com/Outs1d3r-NET/MoleScan\n')
     print('\033[95m Runing the scan in target:','\033[91m',iP)
     global oPP
     print("\033[94m Ports Open:","\033[92m",' '.join(oPP))
@@ -63,8 +63,8 @@ while cr != fr:
 #===> END
 os.system(cTs)
 print('\033[1m{*}==>\t\t[*] MOLE SCAN [*]')
-print('\033[1m{*}==>\t\t(Simple tcp scan running python.)')
-print('\033[1m{*}==>\t\tCreate: https://github.com/Outs1d3r-NET/MoleScan\n')
+print('\033[1m{*}==>\t\t(Simple tcp scan running python3.)')
+print('\033[1m{*}==>\t\tCreated: https://github.com/Outs1d3r-NET/MoleScan\n')
 print("\033[92m\t{*} End the scan ! {*}")
 print("\033[95m\tTarget IP = ","\033[91m",iP)
 print("\033[94m\tOpen Ports = ","\033[92m",' '.join(oPP))
