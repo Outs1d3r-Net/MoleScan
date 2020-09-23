@@ -17,9 +17,9 @@ import os
 startTime = time.time() # COUNTER TIME
 s = socket.socket()     # CREATE SOCKET
 oPP = []                # List for open ports
-ir = 70                 # Initial Range port
+ir = 0                  # Initial Range port
 cr = ir                 # Current Range port
-fr = 140              # Final Range port
+fr = 65535              # Final Range port
 
 iP = input('Set the Target>>> ') # Get the target
 
